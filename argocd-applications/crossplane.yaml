@@ -12,7 +12,7 @@ spec:
     helm:
       releaseName: crossplane
     repoURL: https://charts.crossplane.io/master/
-    targetRevision: 1.12.0-rc.0.93.g3ec2be6c
+    targetRevision: 1.14.0-rc.0.488.g5e8a49b7
   syncPolicy:
     automated:
       selfHeal: true

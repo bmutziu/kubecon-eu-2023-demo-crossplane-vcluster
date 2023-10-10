@@ -5,6 +5,6 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "1"
 spec:
-  package: "crossplane/provider-kubernetes:v0.4.1"
+  package: "crossplanecontrib/provider-kubernetes:main"
   controllerConfigRef:
     name: kubernetes-controller-config

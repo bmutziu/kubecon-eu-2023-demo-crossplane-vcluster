@@ -105,8 +105,7 @@ spec:
     - type: ToCompositeFieldPath
       fromFieldPath: metadata.name
       toFieldPath: status.vcluster.helmProviderName
-    readinessChecks:
-      - type: None
+
   - name: argocd-on-vcluster
     base:
       apiVersion: helm.crossplane.io/v1beta1
